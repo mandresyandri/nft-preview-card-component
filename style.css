@@ -1,0 +1,112 @@
+/* CSS from Frontend mentor */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 2%;
+    color:hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* My custom css  */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 350px;
+    height: 560px;
+    border-radius: 12px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.hero-img {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    border-radius: 12px;
+}
+
+.head-title {
+    margin-top: -10px;
+    font-size: 1.3em;
+}
+
+.a-head-title {
+    color:hsl(0, 0%, 100%);
+}
+
+.a-head-title:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.bottom-element {
+    margin-left: 25px;
+}
+
+.paragraph {
+    color: hsl(215, 32%, 27%);
+}
+
+.element-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.display-eth {
+    margin-right:105px;
+    color: hsl(178, 100%, 50%);
+}
+
+.text-price {
+    margin-top: -22px;
+    margin-left: 15px;
+}
+
+.text-day {
+    margin-top: -22px;
+    margin-left: 19px;
+    color: hsl(215, 32%, 27%);
+}
+
+hr{
+    width: 95%;
+    margin-left: 0%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.author {
+    margin-top: 15px;
+}
+
+.author-img {
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+.author-info {
+    margin-top: -34px;
+    margin-left: 40px;
+    color:hsl(215, 32%, 27%)
+}
+
+.author-alink {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.author-alink:hover {
+    color:hsl(178, 100%, 50%);
+}
