@@ -33,6 +33,28 @@ body {
     height: 300px;
     margin: 25px;
     border-radius: 12px;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    border: solid;
+    margin-top: -330px;
+    margin-left: 25px;
+    width: 300px;
+    height: 300px;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 12px;
+    opacity: 0;
+}
+
+.overlay:hover {
+    opacity: 0.3;
+}
+
+.icon-view {
+    margin: 43%;
+    opacity: 1;
 }
 
 .head-title {
@@ -67,12 +89,12 @@ body {
 }
 
 .text-price {
-    margin-top: -22px;
+    margin-top: -25px;
     margin-left: 15px;
 }
 
 .text-day {
-    margin-top: -22px;
+    margin-top: -25px;
     margin-left: 19px;
     color: hsl(215, 32%, 27%);
 }
@@ -99,7 +121,8 @@ hr{
 .author-info {
     margin-top: -34px;
     margin-left: 40px;
-    color:hsl(215, 32%, 27%)
+    color:hsl(215, 32%, 27%);
+    font-size: 0.8em;
 }
 
 .author-alink {
