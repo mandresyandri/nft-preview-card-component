@@ -71,6 +71,7 @@ body {
 
 .a-head-title {
     color:hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 .a-head-title:hover {
